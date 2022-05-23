@@ -12,7 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Healingmate"
         android:usesCleartextTraffic="true">
-
+        <activity
+            android:name=".IistActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NoticeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NoteActivity"
+            android:exported="false" />
         <activity
             android:name=".LoginActivity"
             android:exported="true">

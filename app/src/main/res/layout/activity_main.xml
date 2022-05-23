@@ -6,35 +6,15 @@
     android:id="@+id/parent_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/backimage"
     tools:context=".MainActivity">
 
-    <RelativeLayout
-        android:id="@+id/header"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_alignParentTop="true"
-        android:background="#345e86">
-
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginStart="140dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="0dp"
-            android:layout_marginBottom="0dp"
-            android:layout_weight="2"
-            android:text="힐링 메이트"
-            android:textColor="@color/black"
-            android:textSize="25dp" />
-
-    </RelativeLayout>
 
     <LinearLayout
         android:id="@+id/mainLayout2"
         android:layout_width="match_parent"
         android:layout_height="300dp"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="150dp"
         android:layout_marginEnd="0dp"
         android:layout_marginBottom="0dp"
         android:orientation="vertical"
@@ -50,34 +30,29 @@
             android:layout_weight="2"
             android:gravity="center"
             android:text="교환 일기"
+            android:fontFamily="@font/mainfont"
             android:textColor="@color/black"
-            android:textSize="25dp" />
+            android:textSize="30dp" />
 
-        <Button
-            android:id="@+id/button"
-            android:layout_width="110dp"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="160dp"
+        <ImageButton
+            android:id="@+id/writebutton"
+            android:layout_width="40dp"
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="177dp"
             android:layout_weight="1"
-            android:background="#00ff0000"
-            android:backgroundTint="#00151515"
+            android:background="@drawable/pen"
             android:text="작성"
-            android:textColor="@color/black"
-            app:icon="@android:drawable/ic_menu_edit"
-            app:iconTint="#000000" />
+            android:textColor="@color/black" />
 
-        <Button
+        <ImageButton
             android:id="@+id/button2"
-            android:layout_width="110dp"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="160dp"
+            android:layout_width="40dp"
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="177dp"
             android:layout_weight="1"
-            android:background="#00ff0000"
-            android:backgroundTint="#00151515"
+            android:background="@drawable/list"
             android:text="목록"
-            android:textColor="@color/black"
-            app:icon="@android:drawable/ic_menu_sort_by_size"
-            app:iconTint="#000000" />
+            android:textColor="@color/black" />
 
     </LinearLayout>
 
@@ -87,7 +62,7 @@
         android:layout_below="@+id/mainLayout2"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="156dp"
+        android:layout_marginTop="200dp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"
         android:orientation="horizontal">
@@ -95,40 +70,46 @@
         <ImageButton
             android:id="@+id/mainbutton1"
             android:layout_width="0dp"
-            android:layout_height="80dp"
+            android:layout_height="50dp"
             android:layout_weight="1"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
+            android:padding="0dp"
+            android:background="@drawable/main"
+            android:scaleType="center" />
 
         <ImageButton
             android:id="@+id/sharebutton1"
             android:layout_width="0dp"
-            android:layout_height="80dp"
+            android:layout_height="50dp"
             android:layout_weight="1"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
+            android:padding="0dp"
+            android:background="@drawable/share"
+            android:scaleType="center" />
 
         <ImageButton
             android:id="@+id/secretbutton1"
             android:layout_width="0dp"
-            android:layout_height="80dp"
+            android:layout_height="50dp"
             android:layout_weight="1"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
+            android:padding="0dp"
+            android:background="@drawable/secret" />
 
         <ImageButton
             android:id="@+id/bookbutton1"
             android:layout_width="0dp"
-            android:layout_height="80dp"
+            android:layout_height="50dp"
             android:layout_weight="1"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
+            android:padding="0dp"
+            android:background="@drawable/book" />
 
         <ImageButton
             android:id="@+id/settingbutton1"
             android:layout_width="0dp"
-            android:layout_height="80dp"
+            android:layout_height="50dp"
             android:layout_weight="1"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
+            android:padding="0dp"
+            android:background="@drawable/setting" />
 
     </LinearLayout>
 
 
 </RelativeLayout>
-

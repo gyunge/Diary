@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/backimage"
     tools:context=".ProfileActivity">
 
     <LinearLayout
@@ -24,6 +25,8 @@
             android:background="#00ff0000"
             android:backgroundTint="#00151515"
             android:textColor="@color/black"
+            android:textSize="20dp"
+            android:fontFamily="@font/mainfont"
             android:text="닉네임 설정" />
 
         <Button
@@ -33,6 +36,8 @@
             android:background="#00ff0000"
             android:backgroundTint="#00151515"
             android:textColor="@color/black"
+            android:textSize="20dp"
+            android:fontFamily="@font/mainfont"
             android:text="비밀번호 변경" />
 
         <Button
@@ -42,6 +47,8 @@
             android:background="#00ff0000"
             android:backgroundTint="#00151515"
             android:textColor="@color/black"
+            android:textSize="20dp"
+            android:fontFamily="@font/mainfont"
             android:text="생일 설정" />
 
     </LinearLayout>

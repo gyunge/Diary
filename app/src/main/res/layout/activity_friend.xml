@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/backimage"
     tools:context=".FriendActivity">
 
     <LinearLayout
@@ -24,6 +25,8 @@
             android:background="#00ff0000"
             android:backgroundTint="#00151515"
             android:textColor="@color/black"
+            android:textSize="20dp"
+            android:fontFamily="@font/mainfont"
             android:text="사용자 코드" />
 
         <Button
@@ -33,6 +36,8 @@
             android:background="#00ff0000"
             android:backgroundTint="#00151515"
             android:textColor="@color/black"
+            android:textSize="20dp"
+            android:fontFamily="@font/mainfont"
             android:text="친구 추가" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

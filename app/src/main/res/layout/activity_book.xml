@@ -5,70 +5,56 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/backimage"
     tools:context=".BookActivity">
 
-    <RelativeLayout
-        android:id="@+id/header"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_alignParentTop="true"
-        android:background="#345e86">
-
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginStart="140dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="0dp"
-            android:layout_marginBottom="0dp"
-            android:layout_weight="2"
-            android:text="힐링 메이트"
-            android:textColor="@color/black"
-            android:textSize="25dp" />
-
-    </RelativeLayout>
 
     <LinearLayout
         android:layout_width="401dp"
         android:layout_height="65dp"
         android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
         android:orientation="horizontal">
 
         <ImageButton
             android:id="@+id/mainbutton1"
             android:layout_width="0dp"
-            android:layout_height="80dp"
+            android:layout_height="50dp"
             android:layout_weight="1"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
+            android:background="@drawable/main"
+            android:scaleType="center" />
 
         <ImageButton
             android:id="@+id/sharebutton1"
             android:layout_width="0dp"
-            android:layout_height="80dp"
+            android:layout_height="50dp"
             android:layout_weight="1"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
+            android:background="@drawable/share"
+            android:scaleType="center" />
 
         <ImageButton
             android:id="@+id/secretbutton1"
             android:layout_width="0dp"
-            android:layout_height="80dp"
+            android:layout_height="50dp"
             android:layout_weight="1"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
+            android:background="@drawable/secret" />
 
         <ImageButton
             android:id="@+id/bookbutton1"
             android:layout_width="0dp"
-            android:layout_height="80dp"
+            android:layout_height="50dp"
             android:layout_weight="1"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
+            android:background="@drawable/book" />
 
         <ImageButton
             android:id="@+id/settingbutton1"
             android:layout_width="0dp"
-            android:layout_height="80dp"
+            android:layout_height="50dp"
             android:layout_weight="1"
-            app:srcCompat="@drawable/ic_launcher_foreground" />
+            android:background="@drawable/setting" />
 
     </LinearLayout>
 
