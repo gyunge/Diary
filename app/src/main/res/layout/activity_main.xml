@@ -57,57 +57,69 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="401dp"
-        android:layout_height="65dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_below="@+id/mainLayout2"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="10dp"
         android:layout_marginTop="200dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginBottom="10dp"
         android:orientation="horizontal">
 
-        <ImageButton
+        <Button
             android:id="@+id/mainbutton1"
             android:layout_width="0dp"
-            android:layout_height="50dp"
+            android:layout_height="match_parent"
             android:layout_weight="1"
+            android:background="#599C7AD8"
+            android:fontFamily="@font/mainfont"
             android:padding="0dp"
-            android:background="@drawable/main"
-            android:scaleType="center" />
+            android:scaleType="center"
+            android:text="교환일기"
+            android:textSize="17dp" />
 
-        <ImageButton
+        <Button
             android:id="@+id/sharebutton1"
             android:layout_width="0dp"
-            android:layout_height="50dp"
+            android:layout_height="match_parent"
             android:layout_weight="1"
+            android:background="#599C7AD8"
+            android:fontFamily="@font/mainfont"
             android:padding="0dp"
-            android:background="@drawable/share"
-            android:scaleType="center" />
+            android:scaleType="center"
+            android:text="공유일기"
+            android:textSize="17dp" />
 
-        <ImageButton
+        <Button
             android:id="@+id/secretbutton1"
             android:layout_width="0dp"
-            android:layout_height="50dp"
+            android:layout_height="match_parent"
             android:layout_weight="1"
+            android:background="#599C7AD8"
+            android:fontFamily="@font/mainfont"
             android:padding="0dp"
-            android:background="@drawable/secret" />
+            android:text="개인일기"
+            android:textSize="17dp" />
 
-        <ImageButton
+        <Button
             android:id="@+id/bookbutton1"
             android:layout_width="0dp"
-            android:layout_height="50dp"
+            android:layout_height="match_parent"
             android:layout_weight="1"
+            android:background="#599C7AD8"
+            android:fontFamily="@font/mainfont"
             android:padding="0dp"
-            android:background="@drawable/book" />
+            android:text="월간북"
+            android:textSize="17dp" />
 
-        <ImageButton
+        <Button
             android:id="@+id/settingbutton1"
             android:layout_width="0dp"
-            android:layout_height="50dp"
+            android:layout_height="match_parent"
             android:layout_weight="1"
+            android:background="#599C7AD8"
+            android:fontFamily="@font/mainfont"
             android:padding="0dp"
-            android:background="@drawable/setting" />
+            android:text="설정"
+            android:textSize="17dp" />
 
     </LinearLayout>
 

@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.provider.ContactsContract;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
@@ -25,7 +26,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        ImageButton mainbutton1 = (ImageButton) findViewById(R.id.mainbutton1);
+        ImageButton button2 = (ImageButton) findViewById(R.id.button2);
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), IistActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button mainbutton1 = (Button) findViewById(R.id.mainbutton1);
         mainbutton1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -34,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        ImageButton sharebutton1 = (ImageButton) findViewById(R.id.sharebutton1);
+        Button sharebutton1 = (Button) findViewById(R.id.sharebutton1);
         sharebutton1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -43,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        ImageButton secretbutton1 = (ImageButton) findViewById(R.id.secretbutton1);
+        Button secretbutton1 = (Button) findViewById(R.id.secretbutton1);
         secretbutton1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -52,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        ImageButton bookbutton1 = (ImageButton) findViewById(R.id.bookbutton1);
+        Button bookbutton1 = (Button) findViewById(R.id.bookbutton1);
         bookbutton1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -61,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        ImageButton settingbutton1 = (ImageButton) findViewById(R.id.settingbutton1);
+        Button settingbutton1 = (Button) findViewById(R.id.settingbutton1);
         settingbutton1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

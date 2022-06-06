@@ -8,8 +8,8 @@
     tools:context=".FriendActivity">
 
     <LinearLayout
-        android:layout_width="343dp"
-        android:layout_height="453dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -22,8 +22,8 @@
             android:id="@+id/button7"
             android:layout_width="match_parent"
             android:layout_height="68dp"
-            android:background="#00ff0000"
-            android:backgroundTint="#00151515"
+            android:background="#599C7AD8"
+            android:layout_marginTop="2dp"
             android:textColor="@color/black"
             android:textSize="20dp"
             android:fontFamily="@font/mainfont"
@@ -33,8 +33,8 @@
             android:id="@+id/button8"
             android:layout_width="match_parent"
             android:layout_height="68dp"
-            android:background="#00ff0000"
-            android:backgroundTint="#00151515"
+            android:background="#599C7AD8"
+            android:layout_marginTop="2dp"
             android:textColor="@color/black"
             android:textSize="20dp"
             android:fontFamily="@font/mainfont"
