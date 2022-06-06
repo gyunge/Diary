@@ -124,7 +124,7 @@
                     android:hint="비밀번호"
                     android:fontFamily="@font/mainfont"
                     android:text=""
-                    android:inputType="textPersonName"
+                    android:inputType="textPassword"
                     app:layout_constraintEnd_toEndOf="@+id/et_id"
                     app:layout_constraintStart_toStartOf="@+id/et_id"
                     app:layout_constraintTop_toBottomOf="@+id/et_id" />
